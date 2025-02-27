@@ -1,0 +1,25 @@
+{
+  "name": "sonarcloud_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar": "sonar-scanner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyen365-build/sonarcloud_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyen365-build/sonarcloud_javascript/issues"
+  },
+  "homepage": "https://github.com/nguyen365-build/sonarcloud_javascript#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
