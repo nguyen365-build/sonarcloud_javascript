@@ -41,6 +41,4 @@ jobs:
       # Upload coverage report to SonarCloud
       - name: Upload Coverage Report to SonarCloud
         run: |
-          sonar-scanner
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          sonar-scanner -Dsonar.login=${{ secrets.SONAR_TOKEN }}
